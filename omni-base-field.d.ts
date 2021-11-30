@@ -1,6 +1,5 @@
 import React from 'react';
 import { BaseInput } from './base-input';
-// import type { CollectionField as CollectionFieldType } from '@sotaoi/client/forms/fields/collection-field';
 
 interface FieldConstructor {
   type: typeof OmniBaseField;
@@ -15,14 +14,6 @@ interface FieldInit {
   onBlur: (ev: any) => void;
   onKeyUp?: (ev: any) => void;
 }
-
-// abstract class BaseComponent<ValueType, ComponentProps, ComponentState> extends React.Component<
-//   ComponentProps,
-//   ComponentState
-// > {
-//   abstract setValue(input: ValueType): void;
-//   abstract getValue(): any;
-// }
 
 declare abstract class OmniBaseField<ValueType, ComponentProps = any, ComponentState = any> {
   abstract init(): FieldInit;
