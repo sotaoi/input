@@ -37,7 +37,7 @@ class BaseInput {
   }
 
   constructor(value) {
-    false && console.info(`Acknowleding "${value}"`);
+    this.value = value;
   }
 
   asset(item, role = 'assets') {
