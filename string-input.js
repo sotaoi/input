@@ -1,4 +1,4 @@
-const { BaseInput } = require('./base-input');
+const { BaseInput } = require('@sotaoi/input/base-input');
 
 class StringInput extends BaseInput {
   constructor(value) {

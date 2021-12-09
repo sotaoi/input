@@ -1,4 +1,4 @@
-const { BaseInput } = require('./base-input');
+const { BaseInput } = require('@sotaoi/input/base-input');
 
 class BooleanInput extends BaseInput {
   constructor(value) {

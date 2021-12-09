@@ -1,4 +1,4 @@
-const { asset } = require('./helper');
+const { asset } = require('@sotaoi/input/helper');
 
 class BaseInput {
   // abstract
