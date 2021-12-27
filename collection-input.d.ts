@@ -1,5 +1,5 @@
-import type { OmniBaseField } from './omni-base-field';
-import { BaseInput } from './base-input';
+import type { OmniBaseField } from '@sotaoi/input/omni-base-field';
+import { BaseInput } from '@sotaoi/input/base-input';
 
 interface CollectionInputType {
   min: number;

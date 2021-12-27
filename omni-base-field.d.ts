@@ -1,5 +1,5 @@
 import React from 'react';
-import { BaseInput } from './base-input';
+import { BaseInput } from '@sotaoi/input/base-input';
 
 interface FieldConstructor {
   type: typeof OmniBaseField;

@@ -1,4 +1,4 @@
-import type { OmniBaseField } from './omni-base-field';
+import type { OmniBaseField } from '@sotaoi/input/omni-base-field';
 
 declare abstract class BaseInput<InputType, FieldValueType> {
   abstract input(field: typeof OmniBaseField): {

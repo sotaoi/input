@@ -1,6 +1,6 @@
-import type { OmniBaseField } from './omni-base-field';
-import type { FileInput } from './file-input';
-import { BaseInput } from './base-input';
+import type { OmniBaseField } from '@sotaoi/input/omni-base-field';
+import type { FileInput } from '@sotaoi/input/file-input';
+import { BaseInput } from '@sotaoi/input/base-input';
 
 interface FileUpload {
   path: string;
