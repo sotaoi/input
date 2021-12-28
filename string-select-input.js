@@ -1,4 +1,4 @@
-import { BaseInput } from '@sotaoi/input/base-input';
+const { BaseInput } = require('@sotaoi/input/base-input');
 
 class StringSelectInput extends BaseInput {
   constructor(value) {
